@@ -5,11 +5,14 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 span{
     color: yellow;
     
 }
-section{
+.flexiable-container{
     display: flex;
     margin-bottom: 150px;
 
@@ -29,6 +32,7 @@ section{
  color:rgb(7, 22, 231);
  font-weight: 700;
  border-radius: 5px;
+ border: 2px;
 }
 .top-background{
     background-image: url(images/top-banner.png);
@@ -38,4 +42,12 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position-x: right;
+}
+.exprience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow:10px 10px 40px gray;
+    border-radius:10px ;
 }
